@@ -21,9 +21,9 @@ class RMS:
         M_Frame = LabelFrame(self.root,text='Menus',font=('times new roman',15), bg='white')
         M_Frame.place(x=10,y=70,width=1340,height=80)
         btn_course = Button(M_Frame,text='Course',font=('goudy old style',15,'bold'),bg='#0b5377',fg='white',cursor='hand2',command=self.add_course).place(x=20,y=5,width=200,height=40)
-        btn_student = Button(M_Frame,text='Student',font=('goudy old style',15,'bold'),bg='#0b5377',fg='white',cursor='hand2',command=self.add_student).place(x=240,y=5,width=200,height=40)
-        btn_result = Button(M_Frame,text='Result',font=('goudy old style',15,'bold'),bg='#0b5377',fg='white',cursor='hand2',command=self.add_result).place(x=460,y=5,width=200,height=40)
-        btn_view = Button(M_Frame,text='View Student Results',font=('goudy old style',15,'bold'),bg='#0b5377',fg='white',cursor='hand2',command=self.add_report).place(x=680,y=5,width=200,height=40)
+        btn_student = Button(M_Frame,text='Student',font=('goudy old style',15,'bold'),bg='#0b5377',fg='white',cursor='hand2',command=self.add_student).place(x=300,y=5,width=200,height=40)
+        btn_result = Button(M_Frame,text='Result',font=('goudy old style',15,'bold'),bg='#0b5377',fg='white',cursor='hand2',command=self.add_result).place(x=580,y=5,width=200,height=40)
+        btn_view = Button(M_Frame,text='View Student Results',font=('goudy old style',15,'bold'),bg='#0b5377',fg='white',cursor='hand2',command=self.add_report).place(x=850,y=5,width=200,height=40)
         btn_exit = Button(M_Frame,text='Exit',font=('goudy old style',15,'bold'),bg='#0b5377',fg='white',cursor='hand2',command=self.exit_).place(x=1120,y=5,width=200,height=40)
 
         footer = Label(self.root, text="VHD-Student Result Management System\nContact us for any Technical Issue: 8469304210",font=('goudy old style',12,),bg='#262626',fg='white').pack(side=BOTTOM,fill=X)
